@@ -1,0 +1,51 @@
+[project]
+name = "fasttemp"
+dynamic = ["version"]
+dependencies = []
+requires-python = ">=3.7"
+authors = [{name = "Md. Almas Ali", email = "almaspr3@gmail.com"}]
+maintainers = [{name = "Md. Almas Ali", email = "almaspr3@gmail.com"}]
+description = "FastTemp is a simple, fast, and lightweight template engine for Python."
+readme = "README.md"
+license = {file = "LICENSE"}
+keywords = [
+  "template",
+  "template-engine",
+  "fast",
+  "lightweight",
+  "simple",
+  "python",
+]
+classifiers = [
+    "Topic :: Internet",
+    "License :: OSI Approved :: MIT License",
+    "Development Status :: 1 - Planning",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Information Technology",
+]
+
+
+[project.urls]
+Homepage = "https://github.com/Almas-Ali/FastTemp"
+Documentation = "https://github.com/Almas-Ali/FastTemp#readme"
+Repository = "https://github.com/Almas-Ali/FastTemp"
+"Bug Tracker" = "https://github.com/Almas-Ali/FastTemp/issues"
+Changelog = "https://github.com/Almas-Ali/FastTemp/blob/master/CHANGELOG.md"
+
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+
+[tool.hatch.version]
+path = "fasttemp/__init__.py"
