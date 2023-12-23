@@ -1,10 +1,10 @@
 <h1 align="center"> FastTemp - A HTML Template Engine </h1>
 
-<center>
+<p align="center">
 <a href="https://github.com/Almas-Ali/FastTemp/"><img src="https://img.shields.io/github/license/Almas-Ali/FastTemp?style=flat-square"></a>
 <a href="https://wakatime.com/badge/user/168edf9f-71dc-49cc-bf77-592d9c9d4eed/project/018c8c58-0154-4fe7-8a63-02c545cc1fa2"><img src="https://wakatime.com/badge/user/168edf9f-71dc-49cc-bf77-592d9c9d4eed/project/018c8c58-0154-4fe7-8a63-02c545cc1fa2.svg" alt="wakatime"></a>
 <a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FAlmas-Ali%2FFastTemp&count_bg=%2352B308&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false"/></a>
-</center>
+</p>
 
 <p align="center">FastTemp is a simple, fast, and lightweight template engine for Python. It is still in development, and not ready for production use.
 </p>
@@ -18,6 +18,7 @@ FastTemp is designed to be fast and easy to use. It has a rich syntax and suppor
 - [x] Variables
     | Syntax | Description |
     | --- | --- |
+    | `@set(variable, value)` | Set a variable |
     | `{variable}` | Print the variable |
     | `{% variable %}` | Print the variable with HTML escaped |
 
