@@ -11,7 +11,7 @@
 
 ## The Principles of FastTemp
 
-FastTemp is designed to be fast and easy to use. It has a rich syntax and supports many features. It's syntax highly inspired by [blade](https://laravel.com/docs/10.x/blade#main-content) from [Laravel](https://laravel.com/). We use the similar syntax to blade, but different in some ways.
+FastTemp is designed to be fast and easy to use. It has a rich syntax and supports many features. It's syntax highly inspired by [blade](https://laravel.com/docs/10.x/blade#main-content) from [Laravel](https://laravel.com/). We use the similar syntax to blade, but different in some ways. We are not trying to copy blade, but we are trying to make a template engine with a similar syntax to blade which is easy to use and fast. We are also trying to make it as lightweight as possible. 
 
 ## Features
 
